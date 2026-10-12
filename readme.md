@@ -18,7 +18,7 @@ Práctica de criptografia en Python capaz de cifrar, descifrar y romper cifrados
 
 ##  Estructura del Proyecto
 
-* `criptografia_final.py`: Script principal y motor del proyecto.
+* `criptografia.py`: Script principal y motor del proyecto.
 * `/corpus`: Carpeta que contiene los textos en claro utilizados para entrenar el modelo de trigramas.
 * `/textos_pruebas`: Textos de ejemplo para realizar pruebas de cifrado y ataques.
 * `/resultados_cifrados`: Directorio autogenerado donde se guardan los criptogramas.
@@ -41,10 +41,10 @@ Cifra un archivo de texto en claro.
 **Ejemplos de uso:**
 ```powershell
 # Cifrado básico usando clave por defecto
-python .\criptografia_final.py cifrar -i "texto_a_cifrar.txt" -o "texto_cifrado.txt"
+python .\criptografia.py cifrar -i "texto_a_cifrar.txt" -o "texto_cifrado.txt"
 
 # Cifrado usando una clave personalizada
-python .\criptografia_final.py cifrar -i .\textos_pruebas\resident_evil_arcano.txt -o .\resultados_cifrados\resident_cifrado.txt -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
+python .\criptografia.py cifrar -i .\textos_pruebas\resident_evil_arcano.txt -o .\resultados_cifrados\resident_cifrado.txt -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
 ```
 
 ###  Descifrar (`descifrar`)
@@ -58,10 +58,10 @@ Descifra un texto cifrado si ya conoces la clave correcta.
 **Ejemplos de uso:**
 ```powershell
 # Descifrado básico
-python .\criptografia_final.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+python .\criptografia.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
 
 # Descifrado con clave específica
-python .\criptografia_final.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt" -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
+python .\criptografia.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt" -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
 ```
 
 ###  Romper Cifrado (`romper_cifrado`)
@@ -83,11 +83,11 @@ Ejecuta el criptoanálisis estadístico mediante el algoritmo *Hill Climbing* pa
 **Ejemplos de uso:**
 ```powershell
 # 1. Ataque rápido y directo mostrando reporte en consola
-python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt"
 
 # 2. Ataque evaluando solo 1000 letras y guardando el reporte en carpeta
-python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 1000 -r "carpeta_resultados"
+python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 1000 -r "carpeta_resultados"
 
 # 3. Ataque profundo con parámetros personalizados, calculando % de éxito y progreso en vivo
-python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 5000 -rs 20 -it 4000 -ref "texto_original.txt" -v
+python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 5000 -rs 20 -it 4000 -ref "texto_original.txt" -v
 ```

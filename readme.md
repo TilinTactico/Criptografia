@@ -58,10 +58,10 @@ Descifra un texto cifrado si ya conoces la clave correcta.
 **Ejemplos de uso:**
 ```powershell
 # Descifrado básico
-python .\criptografia.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+python .\criptografia.py descifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
 
 # Descifrado con clave específica
-python .\criptografia.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt" -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
+python .\criptografia.py descifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt" -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
 ```
 
 ###  Romper Cifrado (`romper_cifrado`)

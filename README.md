@@ -1,46 +1,118 @@
-# Comandos para su ejecucion
-## cifrar 
--i: texto de entrada para cifrar, debe estar en un .txt
--o: texto de salida cifrado, sale en formato .txt
--k clave para cifrar, si no se coloca, se usara una por default
-´´´CMD
-python .\criptografia.py cifrar -i "texto_a_cifrar.txt" -o "texto_cifrado.txt"
+Motor de Criptoanálisis por Hill Climbing
 
-python .\criptografia.py cifrar -i .\textos_pruebas\resident_evil_arcano.txt -o .\resultados_cifrados\resident_cifrado_clave_diferente.txt -k "CLAVE_ALEATORIA"
-´´´
+Este proyecto es una herramienta de grado académico desarrollada en Python capaz de cifrar, descifrar y romper cifrados de sustitución simple utilizando análisis estadístico de lenguaje (trigramas) y el algoritmo heurístico de búsqueda local Hill Climbing.
 
-## Descifrar
--i: texto de entrada para descifrar, debe estar en un .txt
--o: texto de salida descifrado, sale en formato .txt
--k clave para descifrar, si no se coloca, se usara una por default
+Características Principales
 
-´´´CMD
-python .\criptografia.py descifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+Criptoanálisis Estadístico: Entrena un modelo de lenguaje basado en un corpus de texto en español para evaluar la aptitud (score logarítmico) de posibles claves.
 
-python .\criptografia.py descifrar -i "texto_cifrado" -o "texto_descifrado" -k "CLAVE_ALEATORIA"
-´´´
+Algoritmo Hill Climbing: Búsqueda heurística con soporte para múltiples reinicios (restarts) aleatorios para evitar estancamientos en máximos locales.
 
-## Romper cifrado
--i: texto de entrada cifrado, debe de estar en un .txt
--o: texto de salida descifrado, sale en formato .txt
--r: carpeta donde se guardara la informacion del resultado del hill climb, si no se coloca se mostrara el resultado en pantalla
--c: numero de caracteres que se tomaran para realizar el ataque, si no se coloca, se usara todo el archivo para el ataque
--rs: numero de veces que se reiniciara el hill climb, cada reinicio crea una clave aleatoria e itera esa clave n veces, si no se coloca se usara un numero por default
--it: numero de iteraciones de cada reinicio, cada iteracion hace un cambio de dos caracteres a clave, si no se coloca se usara un numero por default
--ref: archivo de referencia para mostrar el porcentaje de efectividad del ataque, se coloca el archivo original
-´´´CMD
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+Medición de Hardware: Calcula el rendimiento del ataque utilizando los ciclos de reloj exactos del procesador (CPU) mediante la lectura directa del registro del sistema operativo.
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -r "carpeta_resultados"
+Reportes Dinámicos: Genera reportes detallados que incluyen la clave inicial, clave final, score logarítmico y porcentaje de efectividad exacto si se provee un texto de referencia.
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c caracteres
+Interfaz de Línea de Comandos (CLI): Completamente modular y ejecutable desde la terminal mediante argumentos personalizados.
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -r "carpeta_resultados" -c caracteres
+Requisitos del Sistema
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c caracteres -c 1000 -rs intentos
+Python 3.x instalado en el sistema.
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c caracteres -c 1000 -rs intentos -it iteraciones 
+No requiere instalación de dependencias externas (utiliza únicamente librerías nativas de la biblioteca estándar de Python: os, math, random, re, collections, time, argparse, platform, winreg).
 
-python .\criptografia.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c caracteres -c 1000 -rs intentos -it iteraciones -ref "texto_original.txt"
+Diseñado y optimizado para entornos Windows (PowerShell/CMD), aunque compatible con Linux/macOS.
 
-´´´
+Estructura del Proyecto
+
+criptografia_final.py: Script principal y motor del proyecto.
+
+/corpus: Carpeta que contiene los textos en claro utilizados para entrenar el modelo de trigramas.
+
+/textos_pruebas: Textos de ejemplo para realizar pruebas de cifrado y ataques.
+
+/resultados_cifrados: Directorio autogenerado donde se guardan los criptogramas.
+
+/resultados_descifrados: Directorio autogenerado para los textos recuperados y reportes de ataque.
+
+Comandos de Ejecución
+
+El script principal se ejecuta a través de la terminal. Debes indicar la operación deseada (cifrar, decifrar, romper_cifrado) seguida de sus argumentos correspondientes.
+
+Cifrar (cifrar)
+
+Cifra un archivo de texto en claro.
+
+Parámetros:
+
+-i (--input): Ruta del archivo .txt de entrada. (Obligatorio)
+
+-o (--output): Ruta del archivo .txt cifrado de salida. (Obligatorio)
+
+-k (--key): Clave de 27 letras para cifrar. Si se omite, se usará la clave QWERTY por defecto. (Opcional)
+
+Ejemplos de uso:
+
+# Cifrado básico usando clave por defecto
+python .\criptografia_final.py cifrar -i "texto_a_cifrar.txt" -o "texto_cifrado.txt"
+
+# Cifrado usando una clave personalizada
+python .\criptografia_final.py cifrar -i .\textos_pruebas\resident_evil_arcano.txt -o .\resultados_cifrados\resident_cifrado.txt -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
+
+
+Descifrar (descifrar)
+
+Descifra un texto cifrado si ya conoces la clave correcta.
+
+Parámetros:
+
+-i (--input): Ruta del archivo .txt cifrado de entrada. (Obligatorio)
+
+-o (--output): Ruta del archivo .txt descifrado de salida. (Obligatorio)
+
+-k (--key): Clave de 27 letras para descifrar. Si se omite, se usará la clave QWERTY por defecto. (Opcional)
+
+Ejemplos de uso:
+
+# Descifrado básico
+python .\criptografia_final.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+
+# Descifrado con clave específica
+python .\criptografia_final.py decifrar -i "texto_cifrado.txt" -o "texto_descifrado.txt" -k "VÑKPWXJMBYFCDUHQAZNOLTRISGE"
+
+
+Romper Cifrado (romper_cifrado)
+
+Ejecuta el criptoanálisis estadístico mediante el algoritmo Hill Climbing para descubrir la clave sin conocerla previamente.
+
+Parámetros principales:
+
+-i (--input): Ruta del archivo .txt cifrado. (Obligatorio)
+
+-o (--output): Ruta para guardar el texto recuperado. (Obligatorio)
+
+-c (--chars): Número de caracteres a evaluar. Si se omite, analiza todo el texto. (Opcional)
+
+-ref (--reference): Archivo de texto original en claro para que el reporte calcule el % de efectividad exacto. (Opcional)
+
+-co (--corpus): Carpeta que contiene los textos para entrenar el modelo. Por defecto usa corpus. (Opcional)
+
+Parámetros de ataque y salida:
+
+-rs (--restarts): Número de reinicios del algoritmo. Por defecto: 15. (Opcional)
+
+-it (--iterations): Iteraciones por reinicio. Por defecto: 3000. (Opcional)
+
+-r (--report): Carpeta para exportar el reporte .txt. Si se omite, el reporte solo se imprime en consola. (Opcional)
+
+-v (--verbose): Imprime el progreso del descifrado en tiempo real. (Opcional)
+
+Ejemplos de uso:
+
+# 1. Ataque rápido y directo mostrando reporte en consola
+python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt"
+
+# 2. Ataque evaluando solo 1000 letras y guardando el reporte en carpeta
+python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 1000 -r "carpeta_resultados"
+
+# 3. Ataque profundo con parámetros personalizados, calculando % de éxito y progreso en vivo
+python .\criptografia_final.py romper_cifrado -i "texto_cifrado.txt" -o "texto_descifrado.txt" -c 5000 -rs 20 -it 4000 -ref "texto_original.txt" -v

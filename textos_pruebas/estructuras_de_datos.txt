@@ -1,0 +1,248 @@
+Capítulo 1 Especificación de tipos abstractos de datos
+
+El concepto de tipo abstracto de datos será el marco de estudio de las estructuras de datos
+que se presentan en el libro. Por ello, dedicamos el primer capítulo a estudiar su significado a
+partir de lo que se denomina una especificación algebraica, que es la descripción precisa de
+su comportamiento. También se introducen en profundidad los mecanismos que ofrece la
+notación Merlí para escribirlas y que serán usados a lo largo del texto en la descripción
+preliminar de las diferentes estructuras de datos que en él aparecen.
+
+1.1 Introducción a los tipos abstractos de datos
+
+Con la aparición de los lenguajes de programación estructurados en la década de los 60,
+surge el concepto de tipo de datos (ing., data type), definido como un conjunto de valores
+que sirve de dominio de ciertas operaciones. En estos lenguajes (C, Pascal y similares,
+derivados todos ellos -de forma más o menos directa- de Algol), los tipos de datos sirven
+sobre todo para clasificar los objetos de los programas (variables, parámetros y constantes) y
+determinar qué valores pueden tomar y qué operaciones se les pueden aplicar.
+Esta noción, no obstante, se reveló insuficiente en el desarrollo de software a gran escala,
+dado que el uso de los datos dentro de los programas no conocía más restricciones que las
+impuestas por el compilador, lo cual era muy inconveniente en los nuevos tipos de datos
+definidos por el usuario, sobre todo porque no se restringía de ninguna manera su ámbito de
+manipulación. Para solucionar esta carencia, resumida por J.B. Morris en "Types are not Sets"
+(Proceedings ACM POPL, 1973), diversos investigadores (citemos como pioneros a
+S.N. Zilles, a J.V. Guttag y al grupo ADJ, formado por J.A. Goguen, J.W. Thatcher,
+E.G. Wagner y J.B. Wright [ADJ78]) introdujeron a mediados de la década de los 70 el
+concepto de tipo abstracto de datos (ing., abstract data type; abreviadamente, TAD ), que
+considera un tipo de datos no sólo como el conjunto de valores que lo caracteriza sino
+también como las operaciones que sobre él se pueden aplicar, juntamente con las diversas
+propiedades que determinan inequívocamente su comportamiento. Todos estos autores
+coincidieron en la necesidad de emplear una notación formal para describir el
+comportamiento de las operaciones, no sólo para impedir cualquier interpretación ambigua
+sino para identificar claramente el modelo matemático denotado por el TAD.
+
+En realidad, el concepto de TAD ya existe en los lenguajes de programación estructurados
+bajo la forma de los tipos predefinidos, que se pueden considerar como tipos abstractos con
+poco esfuerzo adicional. Por ejemplo, consideremos el tipo de datos de los enteros que
+ofrece el lenguaje Pascal; la definición del TAD correspondiente consiste en determinar:
+
+- cuáles son sus valores: los números enteros dentro del intérvalo [minint, maxint];
+- cuáles son sus operaciones: la suma, la resta, el producto, y el cociente y el resto de la
+división, y
+- cuáles son las propiedades que cumplen estas operaciones: hay muchas; por ejemplo:
+a+b = b+a, a*0 = 0, etc.
+
+Resumiendo, se puede definir un tipo abstracto de datos como un conjunto de valores
+sobre los que se aplica un conjunto dado de operaciones que cumplen determinadas
+propiedades. ¿Por qué "abstracto"? Éste es un punto clave en la metodología que se
+presentará y se aplicará en todo el libro. El calificativo "abstracto" no significa "surrealista"
+sino que proviene de "abstracción", y responde al hecho de que los valores de un tipo
+pueden ser manipulados mediante sus operaciones si se saben las propiedades que éstas
+cumplen, sin que sea necesario ningún conocimiento ulterior sobre el tipo; en concreto, su
+implementación en la máquina es absolutamente irrelevante. En el caso de los enteros de
+Pascal, cualquier programa escrito en este lenguaje puede efectuar la operación x+y (siendo
+x e y dos variables enteras) con la certeza de que siempre calculará la suma de los enteros x
+e y, independientemente de su representación interna en la máquina que está ejecutando
+el programa (complemento a 2, signo y magnitud, etc.) porque, sea ésta cual sea, la
+definición de los enteros de Pascal asegura que la suma se comporta de una manera
+determinada. En otras palabras, la manipulación de los objetos de un tipo sólo depende del
+comportamiento descrito en su especificación (ing., specification) y es independiente de su
+implementación (ing., implementation):
+
+- La especificación de un TAD consiste en establecer las propiedades que lo definen.
+Para que sea útil, una especificación ha de ser precisa (sólo tiene que decir aquello
+realmente imprescindible), general (adaptable a diferentes contextos), legible (que
+sirva como instrumento de comunicación entre el especificador y los usuarios del tipo,
+por un lado, y entre el especificador y el implementador, por el otro) y no ambigua (que
+evite posteriores problemas de interpretación). La especificación del tipo, que es
+única, define totalmente su comportamiento a cualquier usuario que lo necesite.
+Según su grado de formalismo, será más o menos fácil de escribir y de leer y más o
+menos propensa a ser ambigua o incompleta.
+
+- La implementación de un TAD consiste en determinar una representación para los
+valores del tipo y en codificar sus operaciones a partir de esta representación, todo ello
+usando un lenguaje de programación convencional. Para que sea útil, una
+implementación ha de ser estructurada (para facilitar su desarrollo), eficiente (para
+optimizar el uso de recursos del computador) y legible (para facilitar su modificación y
+mantenimiento). Una implementación del TAD (puede haber muchas, cada una de ellas
+pensada para un contexto de uso diferente) es totalmente transparente a los usuarios
+del tipo y no se puede escribir hasta haber determinado claramente su especificación;
+el cambio de una implementación por otra que respete el comportamiento deseado del
+tipo no ha de cambiar en absoluto la especificación ni, por consiguiente, la visión que
+de él tienen sus usuarios, que se limitarán a recompilar la aplicación correspondiente.
+
+La verdadera utilidad de los TAD aparece en el diseño de nuevos tipos de datos. Imaginemos
+que se quiere construir un programa Pascal que calcule la suma de una secuencia de
+números complejos introducida por el terminal, acabada por el valor 0 + 0i (para simplificar la
+escritura de algunos detalles irrelevantes, supondremos que tanto la parte real como la parte
+imaginaria de los números complejos son enteros en vez de reales), escribiendo el resultado
+en la pantalla. Fieles a la metodología que acabamos de esbozar, enfocamos el caso como un
+ejercicio resoluble a partir de la especificación de un TAD para los números complejos,
+definible de la siguiente forma:
+
+- cuáles son sus valores: todos aquellos números complejos de partes real e imaginaria
+enteras y dentro del intérvalo [minint, maxint ];
+- cuáles son sus operaciones: como mínimo, y dada la funcionalidad del programa, se
+necesita una operación para sumar complejos, otra para crear un complejo a partir de
+dos enteros y dos más para obtener las partes real e imaginaria, y
+- cuáles son las propiedades que cumplen las operaciones: las típicas de los complejos.
+
+Una vez definido el TAD para los complejos es posible utilizarlo desde un programa Pascal:
+se pueden declarar variables del tipo, usar objetos del tipo como parámetros de funciones,
+utilizar el tipo para construir otros más complicados, etc.; dicho de otra forma, el (nuevo) TAD
+de los complejos tiene las mismas características de uso que el TAD (predefinido) de los
+enteros y desde un programa Pascal sus diferencias son exclusivamente notacionales.
+
+Como consecuencia, se puede escribir el programa principal que calcula la suma de los
+complejos sin implementar el TAD.
+program suma_complejos;
+var res: complejo; a, b: integer;
+begin
+res := crear(0, 0); read(a, b);
+while (a <> 0) or (b <> 0) do begin
+res := sumar(res, crear(a, b)); read(a, b)
+end;
+writeln('El resultado es: ', real(res), ' + ', imaginaria(res), 'i.')
+end.
+
+Es decir, el programa resultante es independiente de la implementación del tipo de los
+complejos en Pascal. Una vez determinadas las operaciones, para completar la aplicación se
+escoge una representación para el TAD y se implementa (en la fig. 1.2 se da una
+representación que mantiene los complejos en notación binómica).
+
+type complejo = record re, im: integer end;
+function crear (a, b: integer): complejo;
+var c: complejo;
+begin
+c.re := a; c.im := b; crear := c
+end;
+function sumar (a, b: complejo): complejo;
+begin
+a.re := a.re + b.re; a.im := a.im + b.im; sumar := a
+end;
+function real (c: complejo): integer;
+begin
+real := c.re
+end;
+function imaginaria (c: complejo): integer;
+begin
+imaginaria := c.im
+end;
+
+La extrapolación de esta técnica a sistemas de gran tamaño conduce al llamado diseño
+modular de las aplicaciones (ing., modular design, formulado por D.L. Parnas en 1972 en el
+artículo "On the Criteria to be Used in Decomposing Systems into Modules", CACM, 15(12);
+también lo llamaremos diseño con TAD; v. [LiG86] para un estudio en profundidad). El diseño
+modular es una generalización del diseño descendente de programas (ing., stepwise
+design; llamado también diseño por refinamientos sucesivos) introducido a finales de los
+años 60 por diversos autores, entre los que destacan O.-J. Dahl, E.W. Dijkstra y C.A.R. Hoare
+(v. Structured Programming, Academic Pres Inc., 1972), y se caracteriza por el hecho de
+dividir el problema original en varios subproblemas más pequeños, cada uno de ellos con
+una misión bien determinada dentro del marco general del proyecto, que interaccionan de
+manera clara y mínima y de tal forma que todos ellos juntos solucionan el problema inicial; si
+algunos subproblemas siguen siendo demasiado complicados, se les aplica el mismo
+proceso, y así sucesivamente hasta llegar al estado en que todos los subproblemas son lo
+bastante sencillos como para detener el proceso. El resultado es una estructura jerárquica
+que refleja las descomposiciones efectuadas; cada descomposición es el resultado de
+abstraer las características más relevantes del problema que se está tratando de los detalles
+irrelevantes en el nivel de razonamiento actual, los cuales adquieren importancia en
+descomposiciones sucesivas. Desde el punto de vista de su gestión, cada subproblema es
+un TAD que se encapsula en lo que se denomina un módulo 1 (ing., module); precisamente,
+la mejora respecto al diseño descendente proviene de la ocultación de la representación de
+los datos y de la limitación de su manipulación al ámbito del módulo que define el tipo.
+
+A primera vista, puede parecer costoso, e incluso absurdo, dividir una aplicación en módulos
+y escribir procedimientos y funciones para controlar el acceso a la estructura que implementa
+un TAD; es decir, ¿por qué no escribir directamente la fórmula de la suma de complejos allí
+donde se necesite, en vez de encapsular el código dentro de una función? La respuesta es
+que esta metodología abunda en diversas propiedades interesantes:
+
+- Abstracción. Los usuarios de un TAD no necesitan conocer detalles de implementación
+(tanto en lo que se refiere a la representación del tipo como a los algoritmos y a las
+técnicas de codificación de las operaciones), por lo que pueden trabajar en un grado
+muy alto de abstracción. Como resultado, la complejidad de un programa queda diluida
+entre sus diversos componentes.
+- Corrección. Un TAD puede servir como unidad indivisible en las pruebas de programas,
+de manera que en una aplicación que conste de diversos tipos abstractos no tengan
+que probarse todos a la vez, sino que es factible y recomendable probarlos por
+separado e integrarlos más adelante. Evidentemente, es mucho más fácil detectar los
+errores de esta segunda manera, porque las entidades a probar son más pequeñas y
+las pruebas pueden ser más exhaustivas. Por otro lado, la adopción de una técnica
+formal de especificación como la que se explica en el resto del capítulo posibilita la
+verificación formal de la aplicación de manera que, eventualmente, se puede demostrar
+la corrección de un programa; ésta es una mejora considerable, porque la prueba
+empírica muestra la ausencia de errores en determinados contextos, pero no asegura
+la corrección absoluta. Hay que decir, no obstante, que la complejidad intrínseca de los
+métodos formales, junto con el volumen de los TAD que aparecen en aplicaciones
+reales, y también la inexistencia de herramientas totalmente automáticas de
+verificación, dificultan (y, hoy en día, casi imposibilitan) la verificación formal completa.
+- Eficiencia. La separación clara entre un programa y los TAD que usa favorece la
+eficiencia, ya que la implementación de un tipo se retrasa hasta conocer las
+restricciones de eficiencia sobre sus operaciones, y así se pueden elegir los algoritmos
+óptimos2.
+- Legibilidad. Por un lado, la estructuración de la información en varios TAD permite
+estudiar los programas como un conjunto de subprogramas con significado propio y de
+más fácil comprensión, porque la especificación de un TAD es suficiente para entender
+su significado. Por lo que respecta a la implementación, los programas que usan los
+diferentes TAD resultan más fáciles de entender, dado que no manipulan directamente
+estructuras de datos sino que llaman a las operaciones definidas para el tipo, que ya se
+encargarán de gestionar las estructuras subyacentes de manera transparente3.
+- Modificabilidad y mantenimiento. Cualquier modificación que se tenga que efectuar
+sobre un programa provocada por cambios en sus requerimientos, por ampliaciones si
+se desarrollan versiones sucesivas (prototipos), o por su funcionamiento incorrecto no
+requiere normalmente examinar y modificar el programa entero sino sólo algunas
+partes. La identificación de estas partes queda facilitada por la estructuración lógica en
+TAD. Una vez más, es importante destacar que los cambios en la codificación de un
+TAD no afectan a la implementación de los módulos que lo usan, siempre que el
+comportamiento externo de las operaciones no cambie.
+- Organización. La visión de una aplicación como un conjunto de TAD con significado
+propio permite una óptima repartición de tareas entre los diferentes componentes de
+un equipo de trabajo, que pueden desarrollar cada TAD independientemente y
+comunicarse sólo en los puntos en que necesiten interaccionar; esta comunicación,
+además, es sencilla, ya que consiste simplemente en saber qué operaciones ofrecen
+los TAD y qué propiedades cumplen (es decir, en conocer su especificación).
+- Reusabilidad. Los TAD diseñados en una especificación pueden ser reutilizables a
+veces en otros contextos con pocos cambios (lo ideal es que no haya ninguno). En
+este sentido es importante, por un lado, disponer de un soporte para acceder
+rápidamente a los TAD (mediante bibliotecas de módulos reusables) y, por otro,
+escoger las operaciones adecuadas para el tipo en el momento de su definición,
+incluso añadiendo algunas operaciones sin utilidad inmediata, pero que puedan ser
+usadas en otros contextos futuros.
+- Seguridad. La imposibilidad de manipular directamente la representación evita el mal
+uso de los objetos del tipo y, en particular, la generación de valores incorrectos.
+Idealmente los lenguajes de programación deberían reforzar esta prohibición limitando
+el ámbito de manipulación de la representación. A pesar de que algunos de ellos lo
+hacen (Ada, Modula-2 y la familia de lenguajes orientados a objetos, incluyendo C++,
+Eiffel y algunas versiones no estándares de Pascal), hay muchos que no, y es
+necesario un sobreesfuerzo y autodisciplina por parte del programador para adaptar los
+conceptos del diseño con TAD a las carencias del lenguaje de programación.
+
+Una vez vistos los conceptos de tipo de datos y tipo abstracto de datos, queda claro que el
+primero de ellos es una limitación respecto al segundo y por ello lo rechazamos; en el resto
+del texto, cualquier referencia al término "tipo de datos" se ha de interpretar como una
+abreviatura de "tipo abstracto de datos". Por otro lado, notemos que todavía no ha sido
+definida la noción de estructura de datos que da título al libro. A pesar de que no se puede
+decir que haya una definición estándar, de ahora en adelante consideraremos que una
+estructura de datos (ing., data structure) es la representación de un tipo abstracto de datos
+que combina los constructores de tipo y los tipos predefinidos habituales en los lenguajes
+de programación imperativos (por lo que respecta a los primeros, tuplas, vectores y punteros
+principalmente; en lo referente a los segundos, booleanos, enteros, reales y caracteres
+normalmente). Determinadas combinaciones presentan propiedades que las hacen
+interesantes para implementar ciertos TAD, y dan lugar a unas familias ya clásicas en el campo
+de la programación: estructuras lineales para implementar secuencias, tablas de dispersión
+para implementar funciones y conjuntos, árboles para implementar jerarquías y multilistas
+para implementar relaciones binarias. La distinción entre el modelo de un TAD y su
+implementación mediante una estructura de datos es fundamental, y se refleja a lo largo del
+texto en la especificación del TAD previa al estudio de la implementación.
+
+

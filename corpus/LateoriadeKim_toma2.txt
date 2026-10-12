@@ -1,0 +1,825 @@
+﻿TOMO II
+
+
+
+No se permite la reproducción total o parcial de este 
+libro, ni su incorporación a un sistema informático, 
+ni su transmisión en cualquier forma o por cualquier 
+medio, sea este electrónico, mecánico, por fotocopia, 
+por grabación u otros métodos, sin el permiso previo 
+y por escrito del editor. La infracción de los derechos 
+mencionados puede ser constitutiva de delito contra 
+la propiedad intelectual (arts. 216 y siguientes del 
+Código Penal).
+
+La teoría de Kim. Tomo II
+© 2024, Jay Sandoval
+
+Corrección de estilo: Jorge Giraldo
+Diseño de interiores: Departamento de Arte y Diseño 
+de Editorial Planeta Perú
+Ilustración de cubierta: Dae @kkoowii_
+Diseño de cubierta: Moisés Díaz Bruno @moe_diaz
+
+© 2024, Editorial Planeta Perú S. A. 
+Bajo su sello editorial CrossBooks
+Av. Juan de Aliaga N.º 425, of. 704, Magdalena del Mar
+Lima, Perú 
+
+www.planetadelibros.com.pe
+
+Primera edición: febrero 2024
+Tiraje: 3000 ejemplares
+
+ISBN: 978-612-4414-41-1
+Depósito Legal N.º 2023-12627
+
+Impreso en Tarea Asociación Gráfica Educativa
+Pasaje María Auxiliadora N.º 156, Breña
+
+Lima-Perú, febrero 2024
+
+
+
+
+
+
+
+
+
+1 7 .
+
+CAL I FORN I A ,  CONDADO  MAR I POSA  
+
+1  d e  agosto  d e  1 9 84 .
+
+Todas las realidades coexisten unas con otras al mismo tiempo. Los 
+pasos y decisiones que tomamos cambian todo a nuestro alrededor 
+a cada segundo. Pero ¿qué es un segundo? Después de todo, el 
+tiempo no existe. 
+
+El sol se colaba entre los verdes follajes de California, marcando 
+el final de las vacaciones de verano. El sonido de una guitarra acom-
+pañaba la luz que resplandecía en el jardín trasero de la casa de 
+April Augustus Moon.
+
+—Creí que esto sería divertido, pero veo que me equivoqué 
+—dijo Sean Grace Kim, pasando los dedos por las cuerdas mientras 
+veía a April escarbar la tierra.
+
+—No actúes como bebé. Deja esa guitarra y ven a ayudarme.
+—No tienes que ser grosero conmigo.
+—Entonces, apresúrate. El abuelo volverá pronto y nos castigará 
+
+si nos ve holgazaneando.
+Hacía muchos años que Sean Grace había visitado, junto a su 
+
+familia, la sala de su casa. En esos años, April no había vuelto a 
+necesitar de nadie más para llenar sus tardes. Como cada final de 
+estación desde que tenía memoria, se encargaba de cuidar el jar-
+dín que con tanto esmero había construido en compañía de su 
+abuelo y en el que, obviamente, no podía faltar la ayuda del mayor 
+de los chicos Kim.
+
+Habían comenzado podando la maleza y haciendo nuevos injer-
+tos de flores en los alrededores de la casa. Ahora se encargaban de 
+
+5
+
+
+
+春に生まれた人 S. GRACE
+colocar tierra abonada en las macetas que adornaban las ventanas y 
+de recortar las hojas de la frondosa copa del árbol que caían hacia 
+la ventana de la cocina.
+
+—Como sea, debemos darnos prisa. Mañana es el inicio de 
+nuestra gran vida como chicos de preparatoria.
+
+April rodó los ojos. Recién había cumplido diecisiete años y real-
+mente no le entusiasmaba la idea de la preparatoria. Pero Sean 
+Grace estaba demasiado emocionado. Era de lo único que había 
+hablado durante todo el verano, y justo en ese momento estaba a 
+punto de ser aplastado por las ansias de que la mañana siguiente 
+llegase.
+
+—No es la gran cosa, relájate. Volveremos a la escuela, ¿qué 
+más da?
+
+—Serán los mejores años de nuestra vida, lo sé. Seré popular, las 
+chicas me amarán y luego iré a la universidad para lograr salir de 
+este pueblo. 
+
+—Ajá, y, según tú, ¿cómo vas a lograr todo eso?
+—Entraré al equipo de béisbol. Ya verás, seré el capitán del 
+
+equipo para cuando estemos en último año.
+—Eres bastante ambicioso para alguien que debería estar ayu-
+
+dándome con las rosas —dijo April con tono alegre.
+Sean Grace abrió los ojos, emocionado. Tenía poco más de die-
+
+cisiete años y estaba en la cima del optimismo. Soñaba lúcidamente 
+con un futuro prometedor, pero poco de eso le importaba cuando 
+veía a su amigo sostener frente a él, con delicadeza, los tallos verdes 
+para injertarlos en la tierra. Y es que Sean Grace amaba las rosas 
+casi tanto como amaba el béisbol.
+
+Su época favorita del año era aquella en la que los rosales co-
+menzaban a florecer, pero, para que ello sucediera, primero debían 
+plantarlos. Dejó su guitarra de lado y corrió hacia April para verlo 
+colocar con lentitud los tallos entre la tierra, alrededor del gran ár-
+bol en el centro del jardín. Sean Grace sonrió cuando el otro lo 
+hizo. En un par de meses, podría ver los rosales completamente lle-
+nos de color, y eso lo emocionaba más que cualquier cosa. Colocó 
+sus manos en los hombros del muchacho con satisfacción. «Sí, defi-
+nitivamente será un buen año», pensó.
+
+6
+
+
+
+Levantó su vista hacia el tronco del árbol; entonces, las viejas 
+marcas en la corteza llamaron su atención.
+
+—Oye, April. ¿Qué significan estos símbolos? —le preguntó 
+mientras tocaba el tronco con suavidad.
+
+Su amigo respondió con una sonrisa. 
+—Es mi nombre. Mi abuelo lo talló hace años, se supone que los 
+
+símbolos significan ‘primavera’ y mi paso por la vida, pero me sor-
+prende que aún se entienda.
+
+—Luce increíble —le dijo. Su fascinación por el mundo era real 
+cuando estaba en ese jardín. Se trataba de un Sean Grace capaz de 
+amar hasta la brisa del verano.
+
+April se puso de pie y cogió una pequeña navaja de jardinería.
+—¿Quieres que escriba el tuyo? —le preguntó.
+—¿Lo harás?
+—Claro. —Clavó su navaja en la corteza—. Será el símbolo de tu 
+
+paso por el mundo —dijo, imitando las palabras de su abuelo. 
+Sean Grace se sentó en la tierra mientras lo veía tallando. Siem-
+
+pre fue más alto que su amigo, pero se sintió pequeño en ese mo-
+mento porque tenía miedo del futuro. Cuando terminó, April se 
+acomodó a su lado dejando caer su espalda entre la grama. Sean 
+Grace lo imitó y quedaron ambos viendo hacia el último cielo de su 
+utopía.
+
+—¿No estás asustado? 
+—¿De qué?
+April volteó a verlo. Sean Grace estaba enfocado en el cielo 
+
+mientras que él solo podía ver el perfil de su rostro. Nunca supo por 
+qué le gustaba tanto verlo. Quizás era algo tan simple como lo bien 
+que se sentía su compañía.
+
+—Ya sabes, de nuestro futuro.
+Sean Grace volteó su cuerpo hacia él, haciendo que se sobresal-
+
+tara un poco. Estaban cerca, cara a cara. Le sonrió y extendió su 
+brazo para colocar su mano sobre el pecho de April, quien, sin apar-
+tar los ojos, rogó al cielo que el chico no fuera capaz de sentir la 
+forma en la que sus latidos aumentaron.
+
+—No —dijo con serenidad viendo los ojos de Sean Grace, gran-
+des por el miedo—, y tú… ¿estás asustado?
+
+7
+
+
+
+Tragó saliva con fuerza.
+—Mucho —le contestó.
+Una línea con una intersección a punto de convertirse en dos 
+
+líneas en ángulos totalmente diferentes.
+
+49 d ías  antes  de . . .
+
+Los humanos son masoquistas por defecto. Es genuinamente hu-
+mano sentir atracción por las cosas que parecen difíciles y, más que 
+eso, imposibles. Taylor nunca había sentido tanta urgencia por ha-
+llar una solución. Mientras Dakho dormía plácidamente abrazado a 
+él, su mente no dejaba de pensar en aquello que le había contado en 
+la noche de Halloween. Sus ojos no se despegaban del techo y el 
+sonido del reloj en la oscuridad amenazaba con acabar con su pa-
+ciencia.
+
+Se pasó la mano por la frente, cansado. Estaba llegando a su lí-
+mite. Por más que se hubiese pasado la última semana dándole vuel-
+tas a la situación, todos los caminos terminaban con alguno de los 
+dos con pulso cero. En el futuro, Taylor estaba muerto. No sabía 
+cómo ni dónde sucedería ni cuándo exactamente, pero, si la infor-
+mación que tenía Dakho era cierta, entonces no le quedaba mucho 
+tiempo. «Mi hermano falleció cuando él tenía dieciocho años» eran 
+las palabras que Sean Grace le había dicho a Dakho treinta y tres 
+años en el futuro.
+
+«¿Y si todo esto ya había pasado una vez?», se preguntó Taylor. 
+¿Qué tal si estaban atrapados en un ciclo que iba a repetirse sin des-
+canso hasta causar el colapso de todas las líneas temporales? ¿Qué 
+tal si era Dakho lo que estaba haciéndole daño, o peor, si era él 
+mismo el propio detonante de su muerte? Se sentó en la orilla de la 
+cama. No, no podía ser solo una cosa, era un conjunto de factores. 
+«Quizás tuve un accidente —se dijo a sí mismo—, o enfermé. Tal 
+vez me deprimí tanto que llegué a lastimarme a mí mismo o… 
+
+8
+
+
+
+alguien más me mató. Alguien podría haberme llevado a hacerlo. 
+Dakho podría ser incluso su propio antagonista».
+
+No podía más con sus pensamientos, lo estaban asfixiando. Se 
+puso de pie y caminó hacia el baño en medio de la oscuridad. En-
+cendió el tenue foco en su interior antes de abrir la llave del lavabo 
+y mojarse el rostro y el cabello, pensando en que no había solución 
+aparente para él. Se observó en el espejo. Si estaban atrapados en 
+bucle, esto significaba que este se repetiría sin descanso hasta que 
+lograra hacer que Dakho volviera al punto de inicio. Pero ¿cuál era 
+exactamente ese punto? Porque, si sus conclusiones eran correctas, 
+terminar con su experimento era el equivalente de aceptar su pro-
+pio destino. ¿Es la 
+
+Pensó en su hermano, en su pierna lastimada. Podría lesionarse primera 
+vez que 
+
+en algún partido, bajando las escaleras o pisando mal en medio de pasa?
+la calle. Sean había podido haber perseguido tan desesperada-
+mente sus sueños que se había quedado a medio camino.
+
+Se pasó una mano por el cuello. Su cabello estaba bastante 
+largo. Abrió el buró bajo el lavabo y sacó de él unas tijeras para cor-
+tarse un poco el mechón que se escondía detrás de sus orejas. Pero, 
+al hacerlo, comenzó a angustiarse. No tenía certeza de si ya estaba 
+loco o no cuando comenzó a cortarse el cabello hacia los lados. 
+Agitó la cabeza, como poseído. Dejó la tijera solo para detenerse 
+ante el espejo y volverse a echar agua en la cara. ¿Qué tal si todo esto 
+estaba en su imaginación y este mundo no era real? ¿O si era parte 
+de la imaginación de alguien más y, entonces, él no era real? To-
+mando de nuevo la tijera, se cortó un trozo del mechón del frente 
+sin dejar de ver su reflejo. O, peor, ¿qué pasaba si era real y no podía 
+cambiar absolutamente nada? ¿Si al querer cambiar el destino solo 
+caían en su juego, dejando que moldee la historia a su antojo? Sus 
+teorías iban a aplastarlo por dentro.
+
+Dakho despertó con el sonido del agua cayendo. Se movió in-
+quieto entre las sábanas cuando notó la ausencia de Taylor y más 
+aún cuando empezó a escuchar los jadeos que venían del baño. Fue 
+velozmente hacia allá y se encontró con trozos de cabello en el piso. 
+Taylor, que ahora había decidido bañarse con ropa, estaba parado 
+dentro de la bañera y con el grifo de la ducha encendido. Aún tenía 
+
+9
+
+
+
+la tijera en la mano y los ojos abiertos mientras el agua caía sobre su 
+cuerpo.
+
+Era el comienzo de la locura.
+—¡Taylor! —llamó Dakho—. ¿Qué te sucede?
+Estaba a mitad de un colapso mental. Ni siquiera le contestó, 
+
+apenas volteó a verlo. A Dakho no le importó, tomó una toalla del 
+perchero y se aproximó a él para hacerlo salir de allí.
+
+—Me dolía la cabeza —dijo con voz baja.
+—¿Qué te hiciste? —le preguntó, preocupado, quitándole la ti-
+
+jera de las manos.
+—No puedo pensar correctamente —respondió entre dientes, 
+
+con voz temblorosa.
+Dakho comenzó a revisarle el rostro, el cuello y las orejas para 
+
+asegurarse de que no se hubiese lastimado, pero todo parecía en 
+orden.
+
+—Respira, vamos. Taylor, eres más fuerte que esto —le dijo. 
+—Dakho, mi cerebro se está volviendo inútil —sollozó. Su poca 
+
+inteligencia emocional no aguantaba ese golpe a su intelecto—. 
+No he podido avanzar con el experimento en estas dos últimas se-
+manas.
+
+—Claro que no… No te preocupes por eso. —Dakho le quitó el 
+cabello del rostro para poder mirarlo—. Has dado mucho de ti 
+mismo, te estás esforzando al máximo.
+
+—No quiero estancarme para siempre.
+—No lo harás, mírame bien. —Lo tomó del rostro—. No te es-
+
+fuerces más, ¿sí? Tienes que descansar de esto.
+—Pero necesitamos…
+—Las respuestas están en mi cabeza, solo tenemos que sacarlas. 
+
+¿Está bien? Ahora, vas a regresar a la habitación, te pondrás ropa 
+seca e irás a la cama, ¿entendido?
+
+Taylor quiso contradecirlo, pero no pudo. Tenía razón, estaba 
+exhausto. Así que asintió y, temblando, salió lentamente del baño. 
+Dakho tomó otra toalla para secarle el cabello mientras el otro se 
+cambiaba la ropa con parsimonia. Lo arropó en la cama antes de 
+acostarse a su lado. Pero, aunque quisiera, Taylor seguía sin poder 
+conciliar el sueño. A diferencia de él, Dakho tenía el sueño pesado. 
+
+10
+
+
+
+Últimamente entrenaba muy duro en el equipo, lo que hacía que 
+cayera rendido apenas tocaba la almohada. Taylor no se equivocó al 
+suponer que volvería a caer rendido poco después. Así que esperó 
+a que sucediera mientras debatía mentalmente con la idea estúpida 
+que se había clavado en su cabeza.
+
+Dakho no podía acercarse al punto de origen, pero él sí.
+La madrugada se asomó y él pudo contemplarla antes que 
+
+todos.
+Extrañamente, Sean había dejado de salir a correr. No le había 
+
+preguntado aún la razón. Bajó al primer nivel de la casa y con su 
+mochila al hombro caminó hacia la carretera.
+
+¿Hasta dónde era capaz de llegar por obtener el conocimiento? 
+No lo sabía y tenía miedo de averiguarlo.
+
+Para cuando la mañana siguiente llegó y Dakho volvió a abrir los 
+ojos, se topó nuevamente con la ausencia de Taylor. 
+
+Sus crisis eran menos frecuentes durante el día. Eso lo sabía. Se 
+fijó en que no estaban ni su mochila ni los anteojos en el escritorio. 
+Pero, como la escuela estaba abierta de nuevo, pensó que quizás 
+querría llegar temprano. Lo único malo fue que ni se molestó en 
+despertarlo. Y ya era tarde.
+
+Se levantó apurado, tenía que ir a entrenar. El capitán Sean 
+Grace les había avisado que el entrenamiento empezaría antes. Ha-
+bían pasado dos semanas desde la noche en que la ciudad completa 
+se vio sumida en la oscuridad. En algunas partes del pueblo no fue 
+nada más que un apagón que duró unas cuantas horas; para los re-
+sidentes de las zonas limítrofes, había significado tener que reparar 
+fusibles y el cableado entero de varias casas.
+
+Y la escuela, que había estado cerrada, finalmente había logrado 
+ser habilitada. Estaban a casi nada de la final y debían recuperar 
+todo el tiempo que habían perdido las últimas semanas. No quería 
+sentirse culpable, pero quizás lo era. Incluso las personas del 
+
+11
+
+
+
+ayuntamiento tuvieron que salir a recolectar fondos para reparar 
+los daños de la central eléctrica del condado. Pero bien, él creía que, 
+si los políticos no se robaran el dinero de los pobladores, estarían 
+preparados para emergencias como esta.
+
+A quién quería engañar. Sí, la habían jodido, y mucho. Les tomó 
+días reparar las luces de la casa, mientras que en el centro algunas 
+calles seguían cerradas por la falta de electricidad. Se abofeteó men-
+talmente, porque o aprendía a dominar sus impulsos eléctricos o 
+vivía en abstinencia lo que le quedaba de existencia. Y lo segundo 
+no era una opción.
+
+El entrenamiento inició de manera rigurosa. Sean Grace los ha-
+bía hecho pasar de trotar a correr por veinte minutos sin descanso 
+solo como calentamiento. Pero entendía el trasfondo. Dakho co-
+menzaba a creer que podía tener un buen futuro como jugador uni-
+versitario. En su época, aún le faltaban seis meses para aplicar a 
+alguna universidad. Sean Grace, el del futuro, le había dicho que 
+podía quedarse a estudiar en California, pero hasta el momento 
+solo tenía una oferta en Boston. Ahora podía ver el deporte como 
+una oportunidad. Así que, si lograba regresar, no dudaría ni por un 
+segundo en marcharse hacia el norte.
+
+En fin, él y el resto de los jugadores se dirigieron hacia el vesti-
+dor de camino a las duchas. No se sentía particularmente incómodo, 
+pero le parecía irónico el ambiente de no homosexualidad que in-
+tentaban proyectar todos mientras se cambiaban. Eran un montón 
+de hombres charlando en ropa interior y cubiertos por toallas. Y, 
+bueno, a él le parecía un escenario conocido. #NOHOMO
+
+Se duchó rápidamente. Contó dos minutos exactos y apagó la 
+llave. No es que no le gustara bañarse, es que tenía miedo de que su 
+cuerpo tuviera una reacción con el agua. Según Taylor —y de 
+acuerdo con los apuntes que había leído sin permiso—, la última 
+vez se había tardado cuatro minutos exactos en colapsar dentro del 
+agua, así que prefería no arriesgarse.
+
+Salió del cubículo con la toalla en su cintura. Fue hasta su casi-
+llero para vestirse y echarse un poco del desodorante que le había 
+robado a Sean Grace, pero escuchó voces y tuvo el presentimiento 
+de que estaban hablando de él.
+
+12
+
+
+
+—Vaya, vaya… —dijo Tom, uno de los mejores bateadores—. 
+Alguien se ha vuelto popular.
+
+Otro de los chicos rio. 
+—Parece que a Han le gusta lo rudo.
+Dakho se dio la vuelta observándolos con una ceja alzada mien-
+
+tras tomaba su pantalón para comenzar a vestirse.
+—¿Qué insinúan? —les preguntó, sonriente. Los chicos de úl-
+
+timo año eran las personas con las que más tiempo pasaba entre 
+entrenamiento y clases. No podía evitar hablarles.
+
+—Vamos, amigo. Tienes la espalda llena de arañazos. ¿Qué clase 
+de chica te hizo eso? 
+
+—Una con manos de oso —bromeó alguien, y todos echaron a 
+reír.
+
+Dakho rodó los ojos. No podía mentir, aunque habían pasado 
+dos semanas, todavía tenía marcas rojas sobre sus omóplatos, inne-
+gablemente causadas por uñas.
+
+—Ya que les importa tanto, confesaré que tengo gustos muy es-
+pecíficos.
+
+Todos abuchearon, emocionados. 
+—Debe ser cosa de asiáticos —dijo otro, riendo.
+—Por favor, que haya logrado en un par de meses lo que tú no 
+
+has conseguido en años no me hace un bicho raro —respondió 
+Dakho, y los abucheos incrementaron.
+
+Ajeno al escándalo, Sean Grace apareció detrás de ellos con el 
+cabello aún húmedo.
+
+—¿A ver, de qué hablan, payasos? —preguntó uniéndose a la 
+conversación.
+
+—Que Dakho tiene una chica y no quiere hablar de ella.
+—Ah, ¿sí? ¿Un par de meses y has conseguido liarte con alguien? 
+
+—Sean Grace lo miró, inquieto. A él también le resultaba curiosa su 
+misteriosa pareja—. ¿Qué clase de persona se fijaría en ti, en primer 
+lugar? —se burló y los demás rieron.
+
+—Tú sabes quién —dijo, y se jactó mentalmente. Sabía hacia 
+dónde iban las palabras acusadoras de Sean Grace, así que no dudó 
+en perturbar su paz—. Pues sí, mis gustos son bastante específicos. 
+
+13
+
+
+
+Nunca he podido resistirme a alguien castaño, de piernas largas y 
+sonrisa bonita.
+
+Se formó un alboroto. 
+—¡Detalles, detalles! —clamó otro de los muchachos, y los de-
+
+más lo siguieron.
+—Sin comentarios. La privacidad es importante para mí, no soy 
+
+un degenerado como ustedes —dijo Dakho, sellándose con un gesto 
+los labios.
+
+Sean Grace se quedó callado. Habían pasado cosas muy extra-
+ñas y eso incluía que en la única persona en quien podía confiar era 
+Augustus Moon. Primero, tenía que resolver el problema de que 
+hubiese dos lunáticos intentando capturarlo. Segundo, tenía que 
+cambiar de estrategia si quería recuperar a su chica. Tercero, ganar 
+la final y entrar a la maldita universidad. Y cuarto, pero no menos 
+importante, sacar de su cabeza la idea de que Taylor se había des-
+viado. Porque no existía manera de que su hermanito se estuviera 
+tirando a Han, ¿cierto?
+
+Agitó la cabeza. Tenía que ir un paso a la vez y poner en marcha 
+su plan para conseguir la información que quería. Para comenzar, 
+apelar al lado amable de su eslabón débil.
+
+—Muchachos —interrumpió—, en lugar de estar holgaza-
+neando, deberían terminar de vestirse, tenemos muchas cosas que 
+hacer.
+
+Todos voltearon a verlo confundidos.
+—Dijiste que el entrenamiento terminaría temprano —cues-
+
+tionó uno de los reclutas más jóvenes.
+—Yo nunca dije que había terminado —respondió Sean Grace, 
+
+y sonrió de lado.
+—¿Y entonces por qué salimos del campo?
+Sean Grace había encontrado la forma de ya no ser burlado. Y 
+
+no dejaría que su orgullo le arrebatara una gran oportunidad. 
+—Hoy haremos algo diferente.
+El tiempo pasaba, y ya nadie estaba dispuesto a seguir el guion 
+
+del destino.
+
+14
+
+
+
+Romeo y Taylor tenían el mismo dilema: buscaban poseer algo que 
+parecía remotamente imposible. Ya sea un amor o un conocimiento 
+prohibido. En el caso particular de Taylor, buscaba ambos. Se había 
+acercado al área cercada del bosque, pero se acobardó a medio ca-
+mino. Entrar allí, sabiendo todo lo que sabía, era definitivamente 
+un suicidio. 
+
+Así que ahí estaba, de regreso a la escuela, a tiempo para su en-
+sayo con el club de teatro. Tranquilo, como quien no tuvo una crisis 
+existencial a las tres de la mañana.
+
+Le gustaba estar en el teatro porque, mientras más leía la histo-
+ria, más fácil le resultaba asimilar sus propias emociones. Las emo-
+ciones irracionales de sus protagonistas lo hacían sentirse menos 
+exagerado. Y se sorprendía a sí mismo enlazando acciones y diálo-
+gos que jamás creyó que funcionarían juntos. Nunca se había inte-
+resado en las lecturas de ficción tanto como ahora.
+
+Lograba tranquilizarse un poco con la lectura, aunque todavía 
+estaba inquieto. Las cosas en su interior no habían sanado, y su 
+vida en peligro definitivamente no desaparecería de su cabeza con 
+tanta facilidad.
+
+Aprovechó para practicar en soledad en el escenario vacío. Lle-
+vaba el cabello esponjado, y no importaban las veces que había in-
+tentado planchar su ropa, su camisa estaba arrugada y sus 
+pantalones, rotos. Había perdido la compostura. Estaba tan enfras-
+cado en su lectura que no notó que Haru llegó al auditorio tranqui-
+lamente, sonriendo feliz de verlo. Se había encomendado para una 
+tarea y encontrar a solas al menor de los Kim hacía más fácil su tra-
+bajo.
+
+Se acercó sin hacer ruido y le tocó la espalda. Cuando Taylor 
+volteó a verlo, quiso saludarlo, pero la boca de Haru fue más rápida 
+que su filtro moral.
+
+—¡¿Qué diablos te pasó?! —dijo, aturdido por su presencia. 
+
+15
+
+
+
+«¿Este niño se unió a una secta o a una banda de rock?», pensó 
+Haru.
+
+—Tuve un colapso mental. ¿Por qué?
+—No, por nada… Te queda bien.
+—No mientas.
+—¿Por qué mentiría?
+—Porque sé que me veo asqueroso. —Taylor volteó la cara y se 
+
+presionó los ojos con los dedos.
+—No, no. Te ves bien, lo digo en serio, pero podría ser mejor. 
+
+—Haru abrió su mochila y sacó una lata de fijador para el cabe-
+llo—. Un poco de spray, la camisa más abierta y quedarás listo para 
+la conquista.
+
+Taylor quiso reírse, pero no pudo. Esto de tener hada madrina 
+le gustaba mucho. Volvió a mirar a Haru y se inclinó hacia el frente 
+para quedar a su altura. Las manos de Haru sobre su cabello lo 
+relajaron. Le roció un poco de fijador y le acomodó el flequillo. El 
+recorrido de sus dedos le despertó un escalofrío que parecía no 
+pertenecer a ese tiempo.
+
+Otros estudiantes comenzaron a entrar por la parte posterior y 
+Taylor levantó una mirada de duda hacia a su amigo.
+
+—No sabía que tendríamos compañía hoy.
+—No creerías que montaría un musical con un solo actor, ¿o sí?
+—¿De dónde sacaste más actores?
+—Convencí a la profesora de música para incluir chicos de se-
+
+cundaria, así que… —Volteó hacia la entrada y reconoció a SunHee 
+entrando tímidamente—. Ahí viene tu coestrella —le susurró, incli-
+nándose hacia su oreja.
+
+Taylor se sintió avergonzado. Era la persona por quien había te-
+nido un amor platónico secreto, o ya no tanto. Haru la había estado 
+visitando en su casa para practicar a escondidas.
+
+—¿Qué? No le tengas miedo a tu suegra, Taylor.
+—No es mi suegra, y no le tengo miedo.
+—Entonces, no hay ningún problema. —Sonrió y terminó de 
+
+revolverle el cabello.
+—A veces te detesto tanto.
+
+16
+
+
+
+—¡Ah, por cierto! —le recordó Haru antes de marcharse—. 
+Ten. Te lo envía tu novio Dakho.
+
+—¡No es mi novio! —contestó exaltado.
+—A ver, amiguito. —Suspiró—. Vives con él, lo besas, le pides su 
+
+opinión sobre tu ropa, le compras comida, le cepillas el cabello… 
+Hasta donde yo veo, adoptaste un novio salvaje del bosque.
+
+—Eso no lo hace… —soltó Taylor, titubeando.
+—Te acostaste con él —dijo Haru directamente, y el otro se 
+
+ahogó con su saliva—. Ponle la etiqueta que quieras a lo que sea que 
+tengan.
+
+—No debí contarte eso.
+—Siéntete feliz. No todos tenemos la suerte de encontrar un 
+
+novio en medio de la nada y llevarlo a casa para que nos cocine y nos 
+diga que somos bonitos. ¿O sí…, «Pastelito»?
+
+Taylor iba a gritarle cuando repentinamente el bullicio cesó. Las 
+puertas principales del auditorio se abrieron, causando un gran es-
+truendo. Los estudiantes de primer año que la maestra de música 
+había obligado a que ayudaran con la obra alzaron la vista dete-
+niendo sus labores. Taylor ladeó la cabeza. O estaba más ciego que 
+de costumbre o todos estaban enloqueciendo a su ritmo. Ni Haru se 
+esperaba que la puerta se abriera para dejar entrar al equipo com-
+pleto de béisbol, incluyendo a Dakho y Sean Grace con ellos.
+
+—¿Pero qué mierda sucede? —masculló mientras los veía acer-
+carse. Volteó a ver a Taylor—. Tú ve a practicar, yo tengo que encar-
+garme de una plaga.
+
+Saltó del escenario y caminó rápidamente hacia Sean Grace.
+—¡Sorpresa! —le dijo el mayor de los Kim, en tono sarcástico, al 
+
+ver la confusión en su rostro—. Llegó la verdadera ayuda.
+—¡Chicos…! Qué alegría verlos aquí… —respondió, fingiendo 
+
+sonreír—. ¿Nos darían un segundo? ¿Sí? Bueno, gracias. —Jaló a 
+Sean Grace del brazo arrastrándolo cerca del telón para luego mur-
+murar—: ¿Qué mierda crees que haces?
+
+—Dijiste que querías uno o dos chicos fuertes que te ayudaran 
+con el auditorio. Así que, bueno, traje nueve.
+
+—¡Estaba bromeando contigo!
+
+17
+
+
+
+—Pero yo no. Así que… —Sonrió levemente, y Haru se estreme-
+ció—. Me debes una.
+
+Al parecer, Sean Grace había convencido a los chicos diciéndo-
+les que firmaría sus hojas de actividad extraescolar solo si coopera-
+ban con la obra. Aunque Haru no sabía si quería cooperar con Sean 
+Grace con aquello de «ayudarlo» con su enamoramiento, le dio gra-
+cia el juego estúpido de Kim y aceptó el reto.
+
+—Siete —dijo burlón.
+—¿Qué cosa?
+—Dakho no cuenta; él ya es mi ayudante oficial. Y tú solo vienes 
+
+aquí para molestar a Sunny. Así que solo trajiste siete personas.
+Sean Grace le sonrió, y Haru no pudo evitar imitarlo.
+—¿Y son suficientes para que me dejes estar aquí? —dijo en 
+
+tono tierno—. Seré bueno, lo prometo.
+Haru frunció el ceño. Esto iba de mal en peor para su dignidad.
+—Está bien, pero no olvides que te odio mucho por esto —res-
+
+pondió resignado.
+—Lo tendré presente.
+Ambos caminaron de regreso hacia el equipo. Sean Grace no 
+
+ocultaba su sonrisa ni Haru, su cara enrojecida.
+—Entonces, chicos —empezó Haru—. Ustedes dos, los más al-
+
+tos, ayuden con las luces. —Miró a los demás chicos del equipo—. 
+Ustedes tres, a colgar la luna de la viga de arriba, y tú —dijo seña-
+lando al moreno que lo miraba con desagrado—, ayúdame a sacar 
+la utilería de la bodega.
+
+—¿Qué hay de mí? —preguntó Sean Grace.
+—Toma un cepillo y quita la pelusa del telón. Ah, y cuando ter-
+
+mines, quita la goma de mascar bajo las butacas.
+—¡¿Qué clase de tarea es esa?!
+—Tú dijiste que venías a ayudar. ¡Cómo lo siento! —le contestó 
+
+mostrándole su labio inferior—. Así que, si no te molesta, iré a ensa-
+yar con mi actriz principal mientras trabajas.
+
+Augustus Moon le dio la espalda y dejó a Sean Grace con una 
+expresión de fastidio, mirando cómo iba en dirección a la chica que 
+lo esperaba feliz de verlo. Sabía que April estaba disfrutando mucho 
+su frustración, y vaya que quería golpearlo por eso. 
+
+18
+
+
+
+Mientras tanto, Haru no había tomado en cuenta al jugador fal-
+tante. Dakho se alejó de su grupo para colarse detrás del escenario. 
+Taylor aún no era lo suficientemente sociable, y estaba seguro de 
+que lo encontraría allí. Se escabulló detrás de las tramoyas y lo sacu-
+dió por los hombros, haciéndolo estremecer.
+
+—Hola, Julieta.
+—¡No hagas eso! —Taylor se sobresaltó, y al verlo le dio un pe-
+
+queño empujón—. Y no me digas Julieta aquí, tarado.
+—¿No lo eres?
+—No, soy Romeo. Tu madre me ha quitado el papel.
+—Oh, no me digas que te decepciona no salir con peluca.
+—No me jodas, la peluca es lo de menos. Las líneas son lo im-
+
+portante.
+—No seas pesimista, lo haces genial.
+—Como sea, no sé por qué sigo haciendo esto si ni siquiera sé si 
+
+llegaré al final del año escolar.
+Taylor lo miró desafiante. Dakho suspiró; sí, la había jodido con-
+
+tándole, pero al menos sentía la conciencia limpia y en paz.
+—¿Cómo te sientes? —dijo preocupado, con sus enormes ojos 
+
+oscuros atentos al chico.
+—Naturalmente, cansado de mi vida, pero está bien.
+—En lugar de pensar así deberíamos enfocarnos en avanzar 
+
+con el experimento.
+—No puedo, estoy ensayando —le respondió dándole la es-
+
+palda. Estaba en una clase de acción evasiva para no deprimirse, 
+tratando de mantenerse ocupado para no pensar en nada más.
+
+—Me gusta lo que le hiciste a tu cabello —dijo Dakho al verlo de 
+espaldas. 
+
+Se había cortado ligeramente los costados y la capa superior de 
+su cabello, que había quedado algo larga, lo hacía lucir como si tu-
+viera una especie de mullet despeinado. Al no recibir respuesta, se 
+acercó hacia su nuca y trazó una línea con su respiración hasta su 
+oreja. 
+
+—También me gusta cómo te queda el pantalón que tienes hoy.
+—¿Qué te pasa, animal? Hay como quince personas allí afuera. 
+
+—Taylor se removió para separarse.
+
+19
+
+
+
+—Lo sé, pero, en vista de que te gusta ignorarme, me veo en la 
+necesidad de tomar medidas desesperadas para obtener tu atención 
+—dijo—. Además, tengo la obligación moral de cuestionarme si tus 
+piernas se ven igual de bien sin ellos.
+
+Taylor se volteó para observarlo con una ceja alzada. 
+—Idiota.
+—Ya sé, pero —respondió con gracia para molestarlo— ahora 
+
+que ya tengo tu atención, quiero saber si recibiste mi nota.
+—Ah, eso. Sí. Pero no la he leído. Cuando pienso en ti recuerdo 
+
+que estoy molesto contigo porque eres un estúpido y me enojo con-
+migo mismo también.
+
+—Cuánta frialdad. ¿Por eso no has parado de insultarme desde 
+que me has visto?
+
+—Imbécil —sentenció Taylor, entrecerrando los ojos.
+—Eso ya lo sabemos; ahora vamos, vamos. Lee mi nota.
+Taylor suspiró y sacó el trozo de papel doblado en cuatro. Lo 
+
+extendió y alzó la vista a Dakho, confundido.
+—¿Un anuncio? —preguntó, deteniéndose a leer la nota. Era 
+
+una publicidad de la nueva exposición de un museo en una ciudad 
+vecina.
+
+—Es una galería sobre la mitología griega —dijo emocio-
+nado—. No creo que sean las pinturas originales, pero lo poco que 
+se ve parece prometedor. Es su último día de exhibición, así que es-
+pero una respuesta tuya pronto.
+
+—¿Respuesta de qué?
+—Dale la vuelta a la hoja, genio.
+Taylor obedeció.
+—«Tú, yo, cita, hoy» —leyó en voz alta, intentando contener la 
+
+risa que se le escapó sin querer.
+
+Tú, yo, cita, hoy.
+Marca:
+
+Sí µ           No µ
+
+20

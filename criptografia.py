@@ -164,7 +164,7 @@ if __name__ == "__main__":
     parser_cifrar.add_argument("-k", "--key", type=str, help="Clave de 27 letras para cifrar (Si se omite, usa QWERTY)")
 
     # Comando 2: decifrar
-    parser_decifrar = subparsers.add_parser("decifrar", help="Descifra un archivo de texto cifrado")
+    parser_decifrar = subparsers.add_parser("descifrar", help="Descifra un archivo de texto cifrado")
     parser_decifrar.add_argument("-i", "--input", required=True, help="Ruta del archivo .txt cifrado de entrada")
     parser_decifrar.add_argument("-o", "--output", required=True, help="Ruta del archivo .txt descifrado de salida")
     parser_decifrar.add_argument("-k", "--key", type=str,
@@ -223,7 +223,7 @@ if __name__ == "__main__":
 
 
     # LÓGICA PARA DESCIFRAR
-    elif args.comando == "decifrar":
+    elif args.comando == "descifrar":
         if not os.path.exists(args.input):
             print(f"Error: El archivo '{args.input}' no existe.")
             exit(1)
